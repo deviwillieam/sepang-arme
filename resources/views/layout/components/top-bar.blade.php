@@ -17,7 +17,7 @@
         <a class="notification sm:hidden" href="">
             <i data-lucide="search" class="notification__icon dark:text-slate-500"></i>
         </a>
-        <div class="search-result">
+        <!-- <div class="search-result">
             <div class="search-result__content">
                 <div class="search-result__content__title">Pages</div>
                 <div class="mb-5">
@@ -63,7 +63,7 @@
                 </a>
                 @endforeach
             </div>
-        </div>
+        </div> -->
     </div>
     <!-- END: Search -->
     <!-- BEGIN: Notifications -->
@@ -92,7 +92,7 @@
             </div>
         </div>
     </div> -->
-    <h1>{{ $fakers[0]['users'][0]['name'] }} &nbsp; &nbsp; &nbsp; &nbsp;</h1>
+    <h1>WILLIEAM &nbsp; &nbsp; &nbsp; &nbsp;</h1>
     <!-- END: Notifications -->
     <!-- BEGIN: Account Menu -->
     <div class="intro-x dropdown w-8 h-8">
