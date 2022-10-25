@@ -120,7 +120,7 @@ class SideMenu
                 'params' => [
                     'layout' => 'side-menu'
                 ],
-                'title' => 'Senarai Daftar Mengikut Program'
+                'title' => 'Senarai Pengundi Mengikuti Program-program YB'
             ],
 
             'tambah3' => [
