@@ -54,14 +54,14 @@ class SideMenu
             ],
 
             // Menu Data Pilihan Raya Umum
-            // 'data_pru' => [
-            //     'icon' => 'layers',
-            //     'route_name' => 'dashboard-data-pru',
-            //     'params' => [
-            //         'layout' => 'side-menu'
-            //     ],
-            //     'title' => 'Data Pilihan Raya Umum'
-            // ],
+            'data_pru' => [
+                'icon' => 'layers',
+                'route_name' => 'dashboard-data-pru',
+                'params' => [
+                    'layout' => 'side-menu'
+                ],
+                'title' => 'Data Pilihan Raya Umum'
+            ],
 
 
             //  'data_pru' => [
