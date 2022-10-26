@@ -138,7 +138,7 @@ class SideMenu
                 'params' => [
                     'layout' => 'side-menu'
                 ],
-                'title' => 'Analisis Mengikut Pusat Daerah Pengundi'
+                'title' => 'Analisis Kajian Sikap'
             ],
 
             // 'tambah5' => [
