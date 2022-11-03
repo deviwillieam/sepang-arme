@@ -7,6 +7,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\DarkModeController;
 use App\Http\Controllers\ColorSchemeController;
+use App\Http\Controllers\CustomAuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,7 +35,11 @@ Route::get('form_share', [SheetDBController::class, 'form_luar']);
 Route::get('form_share2', [SheetDBController::class, 'form_luar2']);
 Route::post('submit-forms', [SheetDBController::class, 'submit_form']);
 
-Route::middleware('auth')->group(function () {
+Route::get('registration', [CustomAuthController::class, 'registration'])->name('register-user');
+Route::post('custom-registration', [CustomAuthController::class, 'customRegistration'])->name('register.custom');   
+
+
+Route::middleware('auth','verified')->group(function () {
     Route::get('logout', [AuthController::class, 'logout'])->name('logout');
     Route::get('iframe_edit', [iFrameController::class, 'iframe_edit']);
     Route::get('iframe_edit', [iFrameController::class, 'index'])->name('iframe_edit');

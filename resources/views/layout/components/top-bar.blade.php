@@ -92,7 +92,7 @@
             </div>
         </div>
     </div> -->
-    <h1>WILLIEAM ANGGARA&nbsp; &nbsp; &nbsp; &nbsp;</h1>
+    <h1>{{ Auth::user()->name }} &nbsp; &nbsp; &nbsp; &nbsp;</h1>
     <!-- END: Notifications -->
     <!-- BEGIN: Account Menu -->
     <div class="intro-x dropdown w-8 h-8">
@@ -102,8 +102,10 @@
         <div class="dropdown-menu w-56">
             <ul class="dropdown-content bg-primary text-white">
                 <li class="p-2">
-                    <div class="font-medium">{{ $fakers[0]['users'][0]['name'] }}</div>
-                    <div class="text-xs text-white/70 mt-0.5 dark:text-slate-500">{{ $fakers[0]['jobs'][0] }}</div>
+                    <div class="font-medium">{{ Auth::user()->email }}</div>
+                    <div class="text-xs text-white/70 mt-0.5 dark:text-slate-500">{{ Auth::user()->name }}</div>
+                    <!-- <div class="font-medium">{{ $fakers[0]['users'][0]['name'] }}</div>
+                    <div class="text-xs text-white/70 mt-0.5 dark:text-slate-500">{{ $fakers[0]['jobs'][0] }}</div> -->
                 </li>
                 <li>
                     <hr class="dropdown-divider border-white/[0.08]">
