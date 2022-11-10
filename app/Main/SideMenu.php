@@ -115,12 +115,12 @@ class SideMenu
             ],
 
             'tambah2' => [
-                'icon' => 'shopping-bag',
+                'icon' => 'globe',
                 'route_name' => 'dashboard-tambah2',
                 'params' => [
                     'layout' => 'side-menu'
                 ],
-                'title' => 'Senarai Pengundi Mengikuti Program YB'
+                'title' => 'Analisis Kajian Sikap 1'
             ],
 
             'tambah3' => [
@@ -129,7 +129,7 @@ class SideMenu
                 'params' => [
                     'layout' => 'side-menu'
                 ],
-                'title' => 'Maklumat Pribadi Pengundi'
+                'title' => 'Geng Rina'
             ],
 
             'tambah4' => [
@@ -138,7 +138,7 @@ class SideMenu
                 'params' => [
                     'layout' => 'side-menu'
                 ],
-                'title' => 'Analisis Kajian Sikap'
+                'title' => 'Analisis Kajian Sikap 2'
             ],
 
             // 'tambah5' => [
@@ -149,7 +149,7 @@ class SideMenu
             //     ],
             //     'title' => 'Tambah Data'
             // ],
-
+            
 
             'tambah5' => [
                 'icon' => 'file-plus',
