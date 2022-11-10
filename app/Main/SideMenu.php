@@ -123,6 +123,15 @@ class SideMenu
                 'title' => 'Analisis Kajian Sikap 1'
             ],
 
+            'tambah4' => [
+                'icon' => 'globe',
+                'route_name' => 'dashboard-tambah4',
+                'params' => [
+                    'layout' => 'side-menu'
+                ],
+                'title' => 'Analisis Kajian Sikap 2'
+            ],
+
             'tambah3' => [
                 'icon' => 'person-standing',
                 'route_name' => 'dashboard-tambah3',
@@ -132,14 +141,7 @@ class SideMenu
                 'title' => 'Geng Rina'
             ],
 
-            'tambah4' => [
-                'icon' => 'globe',
-                'route_name' => 'dashboard-tambah4',
-                'params' => [
-                    'layout' => 'side-menu'
-                ],
-                'title' => 'Analisis Kajian Sikap 2'
-            ],
+           
 
             // 'tambah5' => [
             //     'icon' => 'file-plus',
