@@ -132,6 +132,15 @@ class SideMenu
                 'title' => 'Analisis Kajian Sikap 2'
             ],
 
+            'tambah7' => [
+                'icon' => 'globe',
+                'route_name' => 'dashboard-tambah7',
+                'params' => [
+                    'layout' => 'side-menu'
+                ],
+                'title' => 'Penerima JKM'
+            ],
+
             'tambah3' => [
                 'icon' => 'person-standing',
                 'route_name' => 'dashboard-tambah3',

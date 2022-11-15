@@ -62,6 +62,7 @@ Route::middleware('auth','verified')->group(function () {
         Route::get('pusat-daerahpengundi', 'tambah4')->name('dashboard-tambah4');
         Route::get('form', 'tambah5')->name('dashboard-tambah5');
         Route::get('form2', 'tambah6')->name('dashboard-tambah6');
+        Route::get('penerima-jkm', 'tambah7')->name('dashboard-tambah7');
         Route::get('thankyou', 'terimakasih')->name('thankyou');
 
         Route::get('categories-page', 'categories')->name('categories');
