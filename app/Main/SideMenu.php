@@ -141,6 +141,15 @@ class SideMenu
                 'title' => 'Penerima JKM'
             ],
 
+            'tambah8' => [
+                'icon' => 'globe',
+                'route_name' => 'dashboard-tambah8',
+                'params' => [
+                    'layout' => 'side-menu'
+                ],
+                'title' => 'Pengundi Luar'
+            ],
+
             'tambah3' => [
                 'icon' => 'person-standing',
                 'route_name' => 'dashboard-tambah3',

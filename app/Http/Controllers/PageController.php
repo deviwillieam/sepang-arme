@@ -126,6 +126,17 @@ class PageController extends Controller
         ]);
     }
 
+    public function tambah8()
+    {
+        return view('pages/dashboard-tambah8', [
+            // Specify the base layout.
+            // Eg: 'side-menu', 'simple-menu', 'top-menu', 'login'
+            // The default value is 'side-menu'
+
+            // 'layout' => 'side-menu'
+        ]);
+    }
+
 
 
     /**
